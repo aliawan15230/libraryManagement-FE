@@ -1,0 +1,73 @@
+  .MainWrapper {
+    width: 100%;
+    height: 100%;
+  
+    .Body {
+      display: flex;
+      height: 100%;
+    }
+  
+    .Components {
+      width: 85%;
+    }
+  }
+  
+  .SideBar {
+    width: 19rem;
+    background-color: white;
+    padding: 1rem 1rem 0px 1rem;
+    border-right: solid lightgray 1px;
+  
+    .sidebarList {
+      margin-bottom: 1rem;
+      padding: 11px;
+      border-radius: 1rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      color: gray;
+      gap: 1rem;
+    }
+  
+    .sidebarListActive {
+      margin-bottom: 1rem;
+      padding: 11px;
+      border-radius: 1rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      background-color: rgba(23, 126, 190, 0.1);
+      color: #007ac1;
+      gap: 1rem;
+    }
+  
+    .sidebarList:hover {
+      background-color: rgba(23, 126, 190, 0.1);
+      color: rgba(23, 126, 190, 2.0);
+    }
+  }
+  
+  .FormWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    padding: 2rem;
+    border-top: solid #177ebe 3px;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px grey;
+  
+    .tableFlex {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .addNewWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
